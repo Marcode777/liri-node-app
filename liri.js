@@ -1,5 +1,5 @@
 var keys = require('./keys.js');
-  if process.argv[2]==='my-tweets'){
+  if (process.argv[2]==='my-tweets'){
     console.log('my-tweets');
   } else if(process.argv[2] === 'spotify-this-song'){
     console.log('spotify-this-song');
